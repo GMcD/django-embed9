@@ -8,7 +8,7 @@ from importlib import import_module
 try:
     from urllib.parse import urlencode
 except ImportError:
-    from urlparse import urlencode
+    from urllib import urlencode
 
 APPS_MODELS = {}
 
